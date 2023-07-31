@@ -1,0 +1,46 @@
+Data Input & output Practical Number 02
+29600 yeshini pathirana.
+
+
+01
+#include<stdio.h>
+int main()
+{
+    int age;
+     printf ("HI,HOW OLD ARE YOU?\n");
+     scanf("%d",&age);
+     printf("\n\n welcome %d\n",age);
+     printf("LETS BE FRIENDS!\n");
+     return 0;
+}
+
+02 
+#include <stdio.h>
+int main()
+{
+    printf ("2\t\t\t4\t\t\t8\n3\t\t\t9\t\t\t27\n4\t\t\t16\t\t\t64");
+   return 0;
+}
+
+03
+#include <stdio.h>
+int main()
+{
+    int dis,time ,sp;
+    printf("Enter distance travelled (m):\n");
+    printf("Enter time taken(s):\n");
+    scanf("%d%d",&dis,&time);
+    sp=dis/time;
+    printf("avarage speed is %d ms-1",sp);
+    return 0;
+}
+ 
+(04)
+#include <stdio.h>
+int main() {
+  float fahrenheit, celsius;
+  printf("Enter the temperature in Fahrenheit: ");
+  scanf("%f", &fahrenheit);
+  celsius = (5 / 9) * (fahrenheit - 32);
+  printf("The temperature in Celsius is %.2f\n", celsius);
+  return 0;
